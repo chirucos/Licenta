@@ -1,0 +1,27 @@
+Scrapy:
+
+	* sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 627220E7
+	* echo 'deb http://archive.scrapy.org/ubuntu scrapy main' | sudo tee /etc/apt/sources.list.d/scrapy.list
+	* sudo apt-get update && sudo apt-get install scrapy-0.25
+
+MySQL:
+
+	* sudo apt-get install mysql-workbench
+	* sudo apt-get install mysql-server
+	* sudo apt-get install python-mysqldb
+
+PyQt5:
+
+	* wget http://sourceforge.net/projects/pyqt/files/sip/sip-4.16.8/sip-4.16.8.tar.gz
+	* tar -xzf sip-4.16.8.tar.gz
+	* cd sip-4.16.8
+	* python configure.py --target-py-version 2.7
+	* make
+	* make install
+
+	* wget http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.4.2/PyQt-gpl-5.4.2.tar.gz
+	* tar -xzf PyQt-gpl-5.4.2.tar.gz
+	* cd PyQt-gpl-5.4.2
+	* python configure.py --target-py-version 2.7
+	* make
+	* make install
